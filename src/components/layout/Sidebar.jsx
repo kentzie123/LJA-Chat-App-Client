@@ -53,7 +53,7 @@ const Sidebar = () => {
         </div>
       </div>
 
-      <div className="border-t border-t-base-300 py-6">
+      <div className="border-t border-t-base-300 py-6 overflow-auto max-h-[664px]">
         {filteredUsers.map((user, i) => (
           <button
             key={i}
